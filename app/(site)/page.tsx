@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AuthForm from "@/app/(site)/components/AuthForm";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
         </h2>
       </div>
 
-
+        <AuthForm/>
     </div>
   )
 }
